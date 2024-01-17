@@ -7,4 +7,3 @@ plotly==5.9.0
 openpyxl
 scikit-learn
 datetime
-pytorch
