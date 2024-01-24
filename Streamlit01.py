@@ -60,9 +60,9 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
 
 st.pyplot(fig1)
 
-if(st.button("แสดงข้อมูล")):
+if(st.button("แสดงกราฟวงกลม")):
     st.pyplot(fig1)
-    st.button("ไม่แสดงข้อมูล")
+    st.button("ไม่แสดงกราฟวงกลม")
 
 else:
-    st.button("ไม่แสดงข้อมูล")
+    st.button("ไม่แสดงกราฟวงกลม")
