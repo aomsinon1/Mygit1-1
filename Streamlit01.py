@@ -22,5 +22,8 @@ with col3:
 df=pd.read_csv("./data/iris.csv")
 st.write(df.head(10))
 
-st.button("แสดงข้อมูลตัวอย่าง")
-
+if(st.button("แสดงข้อมูลตัวอย่าง"))
+   st.write(df.head(10))
+   st.button("ไม่แสดงตัวอย่าง")
+else:
+    st.button("ไม่แสดงข้อมูลตัวอย่าง")
