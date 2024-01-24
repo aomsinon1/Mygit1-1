@@ -21,3 +21,6 @@ with col3:
 #import panda as pd 
 df=pd.read_csv("./data/iris.csv")
 st.write(df.head(10))
+
+st.button("แสดงข้อมูลตัวอย่าง")
+
