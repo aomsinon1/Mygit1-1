@@ -45,7 +45,6 @@ else:
     import matplotlib.pyplot as plt
 
 # Pie 
-(st.button("แสดงกราฟวงกลม")):
 labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
 x1=df['sepal.width'].mean()
 x2=df['sepal.length'].mean()
