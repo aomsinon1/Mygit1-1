@@ -17,3 +17,7 @@ with col2
 with col3
    st.header("Setosa")
    st.image(".img/3.jpg")
+
+#import panda as pd 
+df=pd.read_csv("./data/iris.csv")
+st.write(df.head(10)
