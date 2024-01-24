@@ -45,7 +45,7 @@ else:
     import matplotlib.pyplot as plt
 
 # Pie 
-if(st.button("แสดงกราฟวงกลม")):
+(st.button("แสดงกราฟวงกลม")):
 labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
 x1=df['sepal.width'].mean()
 x2=df['sepal.length'].mean()
@@ -60,6 +60,5 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
 #ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 st.pyplot(fig1)
-else:
-    st.button("ไม่แสดงกราฟงวกลม")
+
 
