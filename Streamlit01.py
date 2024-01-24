@@ -60,17 +60,9 @@ ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
 
 st.pyplot(fig1)
 
+if(st.button("แสดงข้อมูล")):
+    st.pyplot(fig1)
+    st.button("ไม่แสดงข้อมูล")
 
-if show_pie_chart:
-    labels = 'sepal.width', 'sepal.length', 'petal.width', 'petal.length'
-    x1 = df['sepal.width'].mean()
-    x2 = df['sepal.length'].mean()
-    x3 = df['petal.width'].mean()
-    x4 = df['petal.length'].mean()
-    sizes = [x1, x2, x3, x4]
-    explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'sepal.length')
-
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-            shadow=True, startangle=90)
-    ax1.axis('equal')
+else:
+    st.button("ไม่แสดงข้อมูล")
