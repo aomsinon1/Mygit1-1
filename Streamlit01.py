@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 st.title("การทดสอบสร้างเว็บด้วยPython")
-st.image("./img/12.jpg")
+st.image("./img/rrr.jpg")
 st.header("การนำเสนอข้อมูลกราฟด้วย Python")
 
 
