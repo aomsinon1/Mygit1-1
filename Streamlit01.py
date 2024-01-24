@@ -12,11 +12,11 @@ with col1:
    st.image("./img/1.jpg")
 with col2:
    st.header("Verginica")
-   st.image(".img/2.jpg")
+   st.image("./img/2.jpg")
 
 with col3:
    st.header("Setosa")
-   st.image(".img/3.jpg")
+   st.image("./img/3.jpg")
 
 #import panda as pd 
 df=pd.read_csv("./data/iris.csv")
